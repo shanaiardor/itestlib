@@ -16,7 +16,7 @@ typedef unsigned char u8;
 
 u8 buff[8]; // 显示缓冲数组
 
-// 分别显示0 1 2 3 4 5 6 7 8 9  0x3F
+// 分别显示0 1 2 3 4 5 6 7 8 9  空
 u8 font[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x00};
 
 void delay_ms(u16 t)
